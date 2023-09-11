@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;800&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700;800&family=Poppins:wght@600;800&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700;800&family=Jost:wght@400;500&family=Poppins:wght@600;800&family=Roboto:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto;
+}
+.container-fluid{
+    width: 95%;
+    margin: auto;
+}
+#navbar{
+    top: 0;
+    z-index: 9;
+    box-shadow: 2px 2px 10px grey;
+}
+#navbarSupportedContent a{
+    border-bottom: 2px solid transparent;
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid #f82015d8;
+}
+.bannerimage{
+    background-image: url(assets/images/services/banner.png);
+    background-size: cover;
+    background-position: 0px 80px;
+    height:750px;
+    width: 100%;
+}
+.bannerimage{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+}
+.heroflex h1{
+    font-family: inter;
+    font-size: 60px;
+    font-weight: 700;
+    color: white;
+    text-shadow: 3px 3px 4px  grey;
+    text-align: center;
+}  
+.heroflex p{
+    font-family: jost;
+    font-size: 20px;
+    color: white;
+    width: 75%;
+    text-align: center;
+}
+.subheadingflex{
+    display: flex;
+    justify-content: center;
+}
+.bookingbutton{
+    font-family: inter;
+    font-size:15px;
+    padding: 8px 30px;
+    border-radius: 50px;
+    border: none;
+    background-color: #FF0000;
+    color: white;
+    margin: 20px 0px 100px 0px;
+}
+.bookingbutton:hover{
+    background-color:transparent;
+    border: 1px solid;
+}
+.buttonbox{
+    display: flex;
+    justify-content: center;
+}
+.cardheading h1{
+    font-family: inter;
+    font-size: 45px;
+    color: black;
+    text-align: center;
+}
+.cardsection img{
+    box-shadow: 4px 4px 4px grey,
+                inset  5px 5px 10px  grey;
+}
+.cardsection img:hover{
+    transform: scale(1.1);
+    transition: ease-in-out;
+    transition-duration: 1s;
+    transition-delay: 0s;
+    transition-timing-function: ease;
+}
+.bgimage{
+    background-image: url(assets/images/services/image\ 37.png);
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    width: 100%;
+    display: flex;
+}
+#services p{
+    font-family: jost;
+}
+#services h4{
+    font-family: inter;
+}
+.pricebgimage{
+    background-image: url(assets/images/services/pricelist.png);
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    width: 100%;
+}
+.cards{
+    transition: all 0.5s ease;
+    cursor: pointer;
+  }
+.cards img:hover{
+    box-shadow: 5px 6px 6px 2px grey;
+    transform: scale(1.1);
+}
+#footer h5{
+    font-family: jost;
+    font-size: 25px;
+    color: #FF0000;
+}
+#underline{
+    color: black;
+    width: 100%;
+}
+#footer button{
+    margin-left: -6px;
+}
+#footer{
+    background-color: #00DFCE;
+}
+.form-label{
+    padding-left: 90px !important;
+}
+
+
+@media screen and (max-width:575px){
+    #navbar{
+        padding: 0px;
+    }
+    .heroflex h1{
+        font-size: 20px;
+        margin: 0px;
+    }
+    .bookingbutton{
+        padding: 5px 10px;
+        font-size:5px;
+        margin: 10px 0px;
+    }
+    .bannerimage{
+        background-position: 0px 60px;
+        height: 278px;
+    }
+    .heroflex{
+        padding-bottom: 0px !important;
+        margin-bottom: 20px !;
+    }
+    .subheadingflex p{
+        font-size: 10px;
+        margin: 0px;
+    }
+    .cardheading h1{
+        font-size: 20px;
+        padding:0px;
+        margin: 20px;
+    }
+    #cardcontent{
+        padding: 10px ;
+    }
+    .bgimage h1{
+        font-size: 15px;
+    }
+    #services h1{
+        font-size: 20px;
+        padding: 20px;
+    }
+    #services h4{
+        font-size: 15px;
+        padding: 8px;
+        margin: 0px;
+    }
+    #services p{
+         font-size: 10px;
+         margin: 0px;
+    }
+    .pricebgimage h1{
+        font-size: 20px;
+    }
+    .pricebgimage h5{
+        font-size: 10px;
+        margin: 0px;
+    }
+    .toolspart h1{
+        font-size: 15px;
+        padding: 20px;
+        margin: 0px;
+    }
+    .toolspart h5{
+        font-size: 8px;
+    }
+    #footerlogo{
+        width: 60px;
+    }
+    #footerfirstpart{
+        margin-top: 0px !important;
+        padding-top: 30px;
+    }
+    #contentfooter{
+        font-size: 15px !important;
+    }
+    #footer h5{
+        margin-bottom: 10px !important;
+    }
+    #footer p{
+        margin-bottom: 0px;
+    }
+    #footercontent{
+        margin-top: 15px !important;
+    }   
+    #contacticons{
+        display: block !important;
+    }
+    #footer input{
+        width: 65% !important;
+    }
+    #signuppart{
+        display: flex !important;
+    }
+    #socialicon{
+        margin-bottom: 0px !important;
+    }
+    .form-label{
+        padding-left: 0px !important;
+    }
+
+}

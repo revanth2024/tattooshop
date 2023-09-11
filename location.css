@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;800&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700;800&family=Poppins:wght@600;800&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700;800&family=Jost:wght@400;500&family=Poppins:wght@600;800&family=Roboto:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto;
+}
+.container-fluid{
+    width: 95%;
+    margin: auto;
+}
+#navbar{
+    top: 0;
+    z-index: 9;
+    box-shadow: 2px 2px 10px grey;
+}
+#navbarSupportedContent a{
+    border-bottom: 2px solid transparent;
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid #f82015d8;
+}
+
+input ,textarea{
+    border: 2px solid black;
+}
+button{
+    border: none;
+}
+.formbannerimage{
+    padding: 100px 0px;
+}
+#footer h5{
+    font-family: jost;
+    font-size: 25px;
+    color: #FF0000;
+}
+#underline{
+    color: black;
+    width:100%;
+}
+#firstname,#lastname{
+    width: 200px;
+}
+#inputarea,#bokingbtn{
+    width: 430px;
+}
+#footer button{
+    margin-left: -6px;
+}
+#footer{
+    background-color: #00DFCE;
+}
+.form-label{
+    padding-left: 90px !important;
+}
+
+
+@media screen and (max-width:575px){
+    #navbar{
+        padding: 0px;
+    }
+    .heroflex h1{
+        font-size: 20px;
+    }
+    .bookingbutton{
+        padding: 5px 10px;
+        font-size:5px;
+    }
+    .herobackground{
+        background-position: 0px 55px;
+        height: 278px;
+    }
+    .heroflex{
+        padding-bottom: 0px !important;
+        margin-bottom: 20px !;
+    }
+   
+    .formbannerimage h1{
+        font-size: 15px;
+        padding: 10px 0px;
+        margin: 0px;
+    }
+    ::placeholder{
+        font-size: 8px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+    }
+   
+    #textareabox{
+        width:200px !important
+    }
+    #lastname{
+        display: none;
+    }
+    #firstname{
+        width: 200px;
+    }
+    .formbannerimage button{
+        font-size: 8px;
+        width: 40% !important;
+        padding: 5px;
+    }
+    #inputdivision{
+        margin: 10px !important;
+    }
+    #inputarea,#bookingbtn{
+        width: 200px;
+    }    
+    .gmap_iframe{
+        height: 200px !important;
+    }
+    .gmap_canvas {
+        height: 150px !important;
+    }
+
+    #footerlogo{
+        width: 60px;
+    }
+    #footerfirstpart{
+        margin-top: 0px !important;
+        padding-top: 30px;
+    }
+    #contentfooter{
+        font-size: 15px !important;
+    }
+    #footer h5{
+        margin-bottom: 10px !important;
+    }
+    #footer p{
+        margin-bottom: 0px;
+    }
+    #footercontent{
+        margin-top: 15px !important;
+    }   
+    #contacticons{
+        display: block !important;
+    }
+    #footer input{
+        width: 65% !important;
+    }
+    #signuppart{
+        display: flex !important;
+    }
+    #socialicon{
+        margin-bottom: 0px !important;
+    }
+    .form-label{
+        padding-left: 0px !important;
+    }
+
+}

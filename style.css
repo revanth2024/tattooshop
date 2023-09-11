@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;800&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700;800&family=Poppins:wght@600;800&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700;800&family=Jost:wght@400;500&family=Poppins:wght@600;800&family=Roboto:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto;
+}
+.container-fluid{
+    width: 95%;
+    margin: auto;
+}
+#navbar{
+    top: 0;
+    z-index: 9;
+    box-shadow: 2px 2px 10px grey;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+#navbarSupportedContent a{
+    border-bottom: 2px solid transparent;
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid #f82015d8;
+}
+.herobackground{
+    background-image: url(assets/images/home/banner.png);
+    background-position: 0px 80px;
+    background-size: cover;
+    height:800px;
+    width: 100%;
+}
+.herobackground{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+}
+.heroflex h1{
+    font-family: inter;
+    font-size: 60px;
+    font-weight: 700;
+    color: white;
+    text-shadow: 3px 3px 4px  grey;
+    text-align: center;
+}  
+.heroflex p{
+    font-family: jost;
+    font-size: 20px;
+    color: white;
+    width: 100%;
+    font-weight: 100;
+}  
+.buttonbox{
+    display: flex;
+    justify-content: center;
+}
+.bookingbutton{
+    font-family: inter;
+    font-size:15px;
+    padding: 10px 30px;
+    border-radius: 50px;
+    border: none;
+    background-color: #FF0000;
+    color: white;
+}
+.bookingbutton:hover{
+    background-color:transparent;
+    border: 1px solid;
+}
+.subheadingflex{
+    display: flex;
+    justify-content: center;
+}
+.bookingbutton{
+    font-family: inter;
+    font-size:15px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: none;
+    background-color: #FF0000;
+    color: white;
+}
+.bookingbutton:hover{
+    background-color:transparent;
+    border: 1px solid;
+}
+.buttonbox{
+    display: flex;
+    justify-content: center;
+}
+#about{
+    margin: 50px 0px;
+}
+#about h1{
+    font-family: inter;
+    font-size: 45px;
+    color: black;
+}
+#about p{
+    font-family:jost;
+    font-size: 20px;
+    color: black;
+}
+.backgroundsection{
+    background-image: url(assets/images/home/testimoni.png);
+    background-size:cover;
+    background-position: center;
+    height: auto;
+    width: 100%;
+}
+.flexpart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.flexpart h1{
+    font-family: inter;
+    font-size: 45px;
+    color: white;
+    padding-top: 80px;
+}
+.flexpart h3{
+    font-family: jost;
+    color: #00DFCE;
+    width: 40%;
+    text-align: center;
+}
+#statement{
+    padding-bottom: 80px;
+}
+#statement p{
+    font-family: jost;
+    color: white;
+}
+.jonhyhr{
+    width:85px;
+    color: white;
+    border: 2px solid white;
+}
+.jessyhr{
+    width:115px;
+    color: white;
+    border: 2px solid white;
+}
+.designheading h1{
+    font-family: inter ;
+    font-size: 45px;
+    color:#FF0000;
+    text-align: center;
+}
+.card h5{
+    text-align: center;
+}
+.cardflexpartone img,.cardflexparttwo img{
+    box-shadow: 4px 4px 4px grey,
+                inset  0px 0px 0px  grey;
+}
+.cardflexpartone img:hover{
+    transform: scale(1.1);
+    transition: ease-in-out;
+    transition-duration: 1s;
+    transition-delay: 0s;
+    transition-timing-function: ease;
+}
+.cardflexparttwo img:hover{
+    transform: scale(1.1);
+    transition: ease-in-out;
+    transition-duration: 1s;
+    transition-delay: 0s;
+    transition-timing-function: ease;
+}
+.cardflexpart h5{
+    font-family: inter;
+    font-size: 20px;
+}
+.mainflex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mainflex h1{
+    font-family: inter ;
+    font-size: 45px;
+    color: white;
+}
+.mainflex p{
+    font-family: jost;
+    font-size: 20px;
+    color: white;
+}
+.subflex{
+    display: flex;
+    justify-content:space-around;
+    flex-direction: row;
+    align-items: center;
+}
+.subflex h5{
+    font-family: inter ;
+    color: #00DFCE;
+    width:60%;
+    text-align: center;
+}
+.testimonialsbackground{
+    background-image: url(assets/images/home/Rectangle\ 12.png);
+    background-size: cover;
+    background-position: center;
+    object-fit: fill;
+}
+.actorheading h1{
+    font-family: inter ;
+    font-size: 45px;
+    font-weight: normal;
+    text-align: center;
+    color: #FF0000;
+    padding: 50px 0px;
+}
+.actorstattoobackground h4{
+    font-family: inter;
+    font-size: 25px;
+    text-align: center;
+    color: black;
+    padding-top: 20px;
+}
+.actorstattoobackground p{
+    font-family: jost;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+#footer{
+    background-color: #00DFCE;
+}
+#footer h5{
+    font-family: jost;
+    font-size: 25px;
+    color: #FF0000;
+}
+#footer button{
+    margin-left: -6px;
+}
+#underline{
+    color: black;
+    width: 100%;
+}
+.form-label{
+    padding-left: 90px !important;
+}
+
+
+@media screen and (max-width:575px){
+    
+    #navbar{
+        padding: 0px;
+    }
+    .herobackground{
+        height: 278px;
+        background-position: 0px 55px;
+    }
+    .herobackground h1{
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .herobackground p{
+        font-size: 10px;
+        margin: 0px;
+    }
+    .bookingbutton{
+        padding: 5px 10px;
+        font-size:5px;
+    }
+    .heroflex{
+        padding-bottom: 0px;
+        margin-bottom: 0px !important;
+    }
+    #about{
+        margin: 20px;
+    }
+    #about h1{
+        font-size: 15px;
+        padding-top: 10px;
+    }
+    #about p{
+        font-size: 10px;
+        padding: 0px;
+    }
+    .flexpart h1{
+        font-size: 15px;
+        padding-top: 20px;
+    }
+    #quortionimage{
+        width: 25px;
+    }
+    .flexpart h3{
+        font-size:10px;
+    }
+    #statement{
+        padding-bottom: 5px;
+    }
+    #statement p{
+        font-size: 8px;
+    }
+    .jonhyhr ,.jessyhr{
+        width: 60px;
+        border: 1px solid;
+        margin: 4px;
+    }
+    .jessyhr{
+        width:60px;
+        border: 1px solid;
+        margin: 4px;
+    }
+    .designheading h1{
+        font-size: 15px;
+        padding: 20px 0px;
+        margin: 0px;
+    }
+    #cardsalignment{
+        padding: 0px !important;
+    }
+    .card-body {
+        padding: 10px;
+    }
+    .cardflexpart h5{
+        font-size: 10px;
+    }
+    .mainflex h1{
+        font-size: 20px;
+        padding: 20px !important;
+    }
+    .subflex h4{
+        font-size: 10px;
+    }
+    .mainflex p{
+        font-size: 8px;
+        text-align: center;
+        margin-bottom: 0px !important;
+    }
+    .subflex{
+        justify-content: space-evenly;
+        align-items: flex-start;
+    }
+    .actorheading h1{
+        font-size: 18px;
+        padding: 20px 0px;
+        margin-bottom: 0px ;
+    }
+    .actorstattoobackground h4{
+        font-size: 12px;
+        padding: 8px;
+        margin: 0px;
+    }
+    .actorstattoobackground p{
+        font-size: 10px;
+        margin-bottom:5px;
+    }
+    #actorsalignment{
+        padding-bottom: 0px !important;
+    }
+    #footerlogo{
+        width: 60px;
+    }
+    #footerfirstpart{
+        margin-top: 0px !important;
+        padding-top: 30px;
+    }
+    #contentfooter{
+        font-size: 15px !important;
+    }
+    #footer h5{
+        margin-bottom: 10px !important;
+    }
+    #footer p{
+        margin-bottom: 0px;
+    }
+    #footercontent{
+        margin-top: 15px !important;
+    }   
+    .d-flex{
+        display: block !important;
+    }
+    #footer input{
+        width: 65% !important;
+    }
+    #signuppart{
+        display: flex !important;
+    }
+    #socialicon{
+        margin-bottom: 0px !important;
+    }
+    .form-label{
+        padding-left: 0px !important;
+    }
+}  
+
+@media screen and (min-width:1367px){
+    #welcomimg{
+        width: 50%;
+        text-align: center;
+    }
+}

@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;800&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700;800&family=Poppins:wght@600;800&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700;800&family=Jost:wght@400;500&family=Poppins:wght@600;800&family=Roboto:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto;
+}
+.container-fluid{
+    width: 95%;
+    margin: auto;
+}
+#navbar{
+    top: 0;
+    z-index: 9;
+    box-shadow: 2px 2px 10px grey;
+}
+#navbarSupportedContent a{
+    border-bottom: 2px solid transparent;
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid #f82015d8;
+}
+.herobackground{
+    background-image: url(assets/images/about/banner.png);
+    background-size: cover;
+    background-position: 0px 80px;
+    height: 750px;
+    width: 100%;
+}
+.herobackground{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+}
+.heroflex h1{
+    font-family: inter;
+    font-size: 60px;
+    font-weight: 600;
+    color: white;
+    text-shadow: 3px 3px 4px  grey;
+    text-align: center;
+}  
+.heroflex h4{
+    font-family: jost;
+    font-size: 30px;
+    color: white;
+    width: 70%;
+    text-align: center;
+}
+.bookingbutton{
+    font-family: inter;
+    font-size:15px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: none;
+    background-color: #FF0000;
+    color: white;
+}
+.bookingbutton:hover{
+    background-color:transparent;
+    border: 1px solid;
+}
+.buttonbox{
+    display: flex;
+    justify-content: center;
+}
+.aboutheading{
+    font-family: inter;
+    font-size: 45px;
+    color: black;
+    text-align: center;
+}
+.about p{
+    font-family:jost;
+    font-size: 25px;
+    color: black;
+    width: 100%;
+}
+.tattoobackgroundimage{
+    background-image: url(assets/images/about/background.png);
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    width: 100%;
+}
+.secondimage{
+    width: 64%;
+}
+.tattooheading{
+    font-family: inter;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+}
+#aboutservices p{
+    font-family: jost;
+    font-size: 20px;
+    color: black;
+}
+#footer h5{
+    font-family: jost;
+    font-size: 25px;
+    color: #FF0000;
+}
+#underline{
+    color: black;
+    width: 100%;
+}
+.backgroundimageachieves{
+    background-image: url(assets/images/about/image\ 34.png);
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    width: 100%;
+}
+#aboutsection{
+    box-sizing: border-box;
+    background-color:#f0f0f0;
+}
+#firstimage{
+    height: 240px;
+    width: 380px;
+}
+#secondimage{
+    height: 200px;
+    width: 255px;
+}
+#footer button{
+    margin-left: -6px;
+}
+#footer{
+    background-color: #00DFCE;
+}
+.form-label{
+    padding-left: 90px !important;
+}
+
+
+@media screen and (max-width:575px){
+    #navbar{
+        padding: 0px;
+    }
+    .heroflex h1{
+        font-size: 20px;
+    }
+    .bookingbutton{
+        padding: 5px 10px;
+        font-size:5px;
+    }
+    .herobackground{
+        background-position: 0px 55px;
+        height: 278px;
+    }
+    .heroflex{
+        padding-bottom: 0px !important;
+        margin-bottom: 20px !important;
+    }
+    .aboutheading{
+        font-size: 15px;
+        margin: 15px 0px !important;
+    }
+    .about p{
+        font-size:10px;
+        padding: 0px !important;
+    }
+    #aboutimage{
+        display: none;
+    }
+    #demogallery{
+        padding: 30px 0px !important;
+    }
+    #demogallery h3{
+        font-size: 10px;
+        padding: 10px !important;
+        margin-bottom: 0px;
+    }
+    #aboutservices h3{
+        font-size: 15px;
+         text-align: center;
+    }
+    #aboutservices p{
+        font-size: 10px;
+    }
+    #servicesflex{
+        display: flex;
+        flex-direction: column;
+    }
+    #servicesheading{
+        padding: 0px !important;
+    }
+    #aboutservices h1{
+        padding-top: 20px !important;
+        font-size: 20px;
+    }
+    #aboutservices img{
+        width: 35px;
+    }
+    #aboutservices P{
+        margin: 0px;
+    }
+    .backgroundimageachieves h1{
+        font-size: 20px;
+    }
+    .information h1{
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+    .information h3{
+        font-size: 20px;
+    }
+    #aboutimagetwo{
+        display: none;
+    }
+    #footerlogo{
+        width: 60px;
+    }
+    #footerfirstpart{
+        margin-top: 0px !important;
+        padding-top: 30px;
+    }
+    #contentfooter{
+        font-size: 15px !important;
+    }
+    #footer h5{
+        margin-bottom: 10px !important;
+    }
+    #footer p{
+        margin-bottom: 0px;
+    }
+    #footercontent{
+        margin-top: 15px !important;
+    }   
+    #contacticons{
+        display: block !important;
+    }
+    #footer input{
+        width: 65% !important;
+    }
+    #signuppart{
+        display: flex !important;
+    }
+    #socialicon{
+        margin-bottom: 0px !important;
+    }
+    .form-label{
+        padding-left: 0px !important;
+    }
+
+}
+
+@media screen and (min-width:1367px){
+    #aboutimage{
+        width: 50% ;
+    }
+    #aboutimagetwo{
+        text-align: end;
+    }
+    #aboutimageanother{
+        width: 50% !important;
+    }
+}

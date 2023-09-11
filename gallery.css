@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;800&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700;800&family=Poppins:wght@600;800&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700;800&family=Jost:wght@400;500&family=Poppins:wght@600;800&family=Roboto:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto;
+}
+.container-fluid{
+    width: 95%;
+    margin: auto;
+}
+#navbar{
+    top: 0;
+    z-index: 9;
+    box-shadow: 2px 2px 10px grey;
+}
+#navbarSupportedContent a{
+    border-bottom: 2px solid transparent;
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid #f82015d8;
+}
+.herobackground{
+    background-image: url(assets/images/home/banner.png);
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+    width: 100%;
+}
+.gallerybannerimage{
+    background-image: url(assets/images/reviews/banner.png);
+    background-size: cover;
+    background-position: top;
+    height: 800px;
+    width: 100%;
+}
+.gallerybannerimage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gallerybannerimage h1{
+    font-family: inter;
+    font-size: 60px;
+    font-weight: 700;
+    color: white;
+    text-shadow: 3px 3px 4px  grey;
+}
+.gallerybannerimage p{
+    font-family: jost;
+    color: white;
+    width: 50%;
+}
+#listedterms li{
+    font-family: jost;
+    font-size: 20px;
+    color: white;
+}
+#viewmorebutton:hover{
+    box-shadow: 3px 3px 10px 2px grey;
+}
+.reviewbg{
+    background-image: url(assets/images/reviews/Rectangle\ 33.png);
+    background-size: cover;
+    background-position: right;
+    height: 700px;
+    width: 100%;
+}
+#footer h5{
+    font-family: jost;
+    font-size: 25px;
+    color: #FF0000;
+}
+#underline{
+    color: black;
+    width: 100%;
+}
+#footer button{
+    margin-left: -6px;
+}
+#footer{
+    background-color: #00DFCE;
+}
+.form-label{
+    padding-left: 90px !important;
+}
+
+
+@media screen and (max-width:575px){
+    #navbar{
+        padding: 0px;
+    }
+    .heroflex h1{
+        font-size: 20px;
+    }
+    .bookingbutton{
+        padding: 5px 10px;
+        font-size:5px;
+    }
+    .herobackground{
+        background-position: 0px 55px;
+        height: 278px;
+    }
+    .heroflex{
+        padding-bottom: 0px !important;
+        margin-bottom: 20px !;
+    }
+    .gallerybannerimage{
+        height: 320px;
+        background-position: 0px 60px;
+    }
+    .gallerybannerimage h1{
+        font-size: 20px;
+        padding-top: 100px;
+    }
+    .gallerybannerimage h4{
+        font-size: 10px;
+    }
+    #tipsheading{
+        font-size: 12px;
+        padding-top: 10px;
+    }
+    #listedterms li{
+        font-size: 10px;
+    }
+    #listedterms{
+        padding: 0px;
+    }
+    #tipsimagediv{
+        display: flex;
+        justify-content: center;
+    }
+    #tipsimage{
+        width: 50%;
+    }
+    .galleryheading{
+        padding: 10px 0px;
+        margin: 0px;
+    }
+    .galleryheading h1{
+        font-size: 15px;
+    }
+    #viewmorebutton{
+        padding: 5px 10px;
+        margin: 10px;
+        font-size: 6px;
+    }
+    .reviewbg{
+        height: 200px;
+    }
+    .reviewbg img{
+        width: 10%;
+    }
+    .youtubereview iframe{
+        height: 205px;
+    }
+    .testimonialsbg h1{
+        font-size: 15px;
+    }
+    .testimonialsbg h3{
+        font-size: 12px;
+    }
+    .testimonialsbg h5{
+        font-size: 8px;
+    }
+    .testimonialsbg img{
+        width: 80px !important;
+        padding-bottom: 10px;
+    }
+    .testimonialsbg button{
+        width: 20px;
+    }
+    .carousel-indicators{
+        width: 50px;
+        margin-left: 43%;
+    }
+    #footerlogo{
+        width: 60px;
+    }
+    #footerfirstpart{
+        margin-top: 0px !important;
+        padding-top: 30px;
+    }
+    #contentfooter{
+        font-size: 15px !important;
+    }
+    #footer h5{
+        margin-bottom: 10px !important;
+    }
+    #footer p{
+        margin-bottom: 0px;
+    }
+    #footercontent{
+        margin-top: 15px !important;
+    }   
+    #contacticons{
+        display: block !important;
+    }
+    #footer input{
+        width: 65% !important;
+    }
+    #signuppart{
+        display: flex !important;
+    }
+    #socialicon{
+        margin-bottom: 0px !important;
+    }
+    .form-label{
+        padding-left: 0px !important;
+    }
+
+}
+
+@media screen and (min-width:1367px) {
+    #tipsimage{
+        width: 50%;
+    }
+    
+}
